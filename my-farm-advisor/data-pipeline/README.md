@@ -16,6 +16,13 @@ subfolder per output family (`field-maps/`, `soil-maps/`, `maturity/`,
 runtime artifacts stay outside the repo under `DATA_PIPELINE_DATA_ROOT`
 (see `ASSET_POLICY.md` at the repo root).
 
+## Interactive grower maps
+
+`grower-web-map/` renders one lightweight, self-contained Leaflet HTML map per
+grower from runtime field boundaries (Esri World Imagery basemap, field labels,
+clickable popups, searchable navigation). See
+[`grower-web-map/README.md`](grower-web-map/README.md).
+
 
 ## Global parity in one paragraph
 
